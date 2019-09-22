@@ -12,7 +12,7 @@ node{
     } 
     
     
-    stage('Build Docker Image'){
+   /* stage('Build Docker Image'){
         sh 'docker build -t dockerhandson/java-web-app .'
     }
     
@@ -35,6 +35,6 @@ node{
        }
        
     }
-     
+     */
      
 }
